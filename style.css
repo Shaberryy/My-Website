@@ -1,0 +1,68 @@
+body {
+    background-image: url(https://i.pinimg.com/564x/58/45/33/584533963b52ef77f22f2e9d4c276c90.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(37, 13, 51);
+}
+
+header {
+    background-image: url(https://i.pinimg.com/originals/2f/cd/55/2fcd557a4f899e710841f3359a2e4a1e.gif);
+    margin-top: auto;
+}
+
+h1 {
+    display: block;
+    background-color: rgb(175, 213, 246);
+    color: rgb(78, 85, 157);
+    text-align: center;
+
+}
+
+h2 {
+    display: inline-block;
+    background-color: rgb(175, 213, 246);
+    color: rgb(78, 85, 157);
+
+}
+
+h3 {
+    background-color: rgb(126, 153, 213);
+    display: inline-block
+}
+
+/* links */
+a {
+    text-decoration: none;
+    background-color: rgb(126, 153, 213);
+    color: rgb(23, 56, 84);
+    display: inline-block;
+}
+
+/* hot links */
+p {
+    text-decoration: none;
+    background-color: rgb(126, 153, 213);
+    color: rgb(23, 56, 84);
+    display: inline-block;
+}
+
+
+
+footer {
+    margin-bottom: auto;
+}
+
+/* images */
+.bmo {
+    width: 12%;
+    margin-right: auto;
+}
+
+.marcy {
+    width: 15%;
+}
+
+.paint {
+    width: 10%;
+}
