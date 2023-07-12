@@ -1,9 +1,16 @@
+html{
+    @media screen {
+        font-size: 1.2rem;
+    }
+    
+}
 body {
     background-image: url(https://i.pinimg.com/564x/58/45/33/584533963b52ef77f22f2e9d4c276c90.jpg);
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: rgb(37, 13, 51);
+    color: rgb(51, 13, 43);
+    
 }
 
 header {
@@ -16,6 +23,10 @@ h1 {
     background-color: rgb(175, 213, 246);
     color: rgb(78, 85, 157);
     text-align: center;
+    border-radius: 60px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -23,14 +34,18 @@ h2 {
     display: inline-block;
     background-color: rgb(175, 213, 246);
     color: rgb(78, 85, 157);
+    
 
 }
 
 h3 {
     background-color: rgb(126, 153, 213);
-    display: inline-block
+    display: inline-block;
+    border-radius: 10px;
+    width: 20%;
 }
-.return{
+
+.return {
     display: inline-block;
     color: rgb(78, 85, 157);
     background-color: rgb(175, 213, 246);
@@ -38,11 +53,15 @@ h3 {
 }
 
 /* links */
-a {
+.navlinks {
     text-decoration: none;
-    background-color: rgb(126, 153, 213);
+    background-color: rgb(126, 153, 213); 
     color: rgb(23, 56, 84);
     display: inline-block;
+    border-radius: 40px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* hot links */
@@ -51,11 +70,12 @@ p {
     background-color: rgb(126, 153, 213);
     color: rgb(23, 56, 84);
     display: inline-block;
+    border-radius: 40px;
 }
 
 
 
-footer {
+.footer {
     margin-bottom: auto;
 }
 
@@ -72,6 +92,24 @@ footer {
 .paint {
     width: 10%;
 }
-.me{
+
+.me {
     width: 30%;
+}
+
+/* art photos */
+.art{
+    width: 50%;
+}
+/* Social medis */
+.socials{
+    Display: inline-block;
+    grid-template-columns: 60px;
+    width: 70%;
+    
+}
+.socialbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
 }
