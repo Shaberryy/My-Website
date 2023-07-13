@@ -1,5 +1,7 @@
 /* Media sizing */
-
+ @media screen and (max-width: 1200px){
+    
+} !important
 body {
     background-image: url(https://i.pinimg.com/564x/58/45/33/584533963b52ef77f22f2e9d4c276c90.jpg);
     background-size: cover;
