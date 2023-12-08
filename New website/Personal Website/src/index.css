@@ -13,40 +13,54 @@ background-image: url("flower.jpeg");
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 } */
-body {
-  background-image: url("../src/assets/flower.jpg");
-  background-color: rgb(121, 153, 190);
+
+html {
+  /* background-image: url("../src/assets/Background1.png"); */
+  background-color: rgb(5, 5, 5);
+  /* background-repeat: no-repeat; */
+  margin: 5%;
   color: rgb(253, 255, 255);
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  border: #5f5f5f;
+  border-style: double;
 }
-.links {
-  display: flex;
-  margin-left: 10%;
+body {
+  text-align: left;
 }
 
+/* COMPONENTS
+ */
 .home {
-  border: #ffe7e7;
+  border: #5f5f5f;
   border-style: double;
   background: #0000004f;
 }
-
+/*````````````````````` */
+/* LINKS AND A CLASSES */
+.links {
+  display: flex;
+  gap: 10px;
+}
+.socials {
+  width: 50px;
+  height: auto;
+  /* display: flex; */
+  flex-wrap: wrap-reverse;
+  background-color: #0000008e;
+  gap: 10px;
+}
+.socialbox {
+  gap: 20px;
+}
 a {
   font-weight: 500;
   color: #ffffff;
   text-decoration: inherit;
 }
 a:hover {
-  color: #f3f3f3;
+  color: #535353;
 }
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
+/*```````````````````` */
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -82,12 +96,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
-
-.socials {
-  width: 20%;
-  height: auto;
-  /* display: flex; */
-  flex-wrap: wrap-reverse;
-  background-color: #0000008e;
 }
