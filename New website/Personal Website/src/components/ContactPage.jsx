@@ -28,7 +28,12 @@ export default function ContactPage() {
                 className="socials"
               />
             </a>
-            <a href="https://www.artstation.com/jaden_png"></a>
+            <a href="https://www.artstation.com/jaden_png">
+              <img
+                src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/27_Artstation_logo_logos-512.png"
+                className="socials"
+              />
+            </a>
           </div>
         </span>
       </div>
