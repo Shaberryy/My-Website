@@ -66,9 +66,20 @@ a:hover {
 .studiodrink {
   width: 500px;
 }
+.hali {
+  width: 40%;
+  border: rgb(175, 175, 175);
+  border-style: double;
+  margin: 20px;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+.nameAndPhoto {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 /* button {
