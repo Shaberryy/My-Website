@@ -35,7 +35,7 @@ export default function Portfolio() {
             height="315"
             src="https://www.youtube-nocookie.com/embed/bwXg36Vy9BI?si=1EmulJh0GCxD5ZX0"
             title="YouTube video player"
-            frameborder="0"
+            border="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>

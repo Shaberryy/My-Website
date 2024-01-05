@@ -47,10 +47,16 @@ body {
   /* display: flex; */
   flex-wrap: wrap-reverse;
   /* background-color: #2e18638e; */
-  gap: 10px;
+  gap: 20px;
+}
+.socials:hover {
+  opacity: 60%;
 }
 .socialbox {
-  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 a {
   font-weight: 500;
@@ -78,8 +84,10 @@ h1 {
 }
 .nameAndPhoto {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+p {
+  border-style: dashed;
 }
 
 /* button {
