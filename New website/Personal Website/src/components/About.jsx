@@ -1,6 +1,6 @@
 import NavBar from "./NavBar";
 import { Link } from "react-router-dom";
-
+import ContactPage from "./ContactPage";
 export default function About() {
   return (
     <>
@@ -38,13 +38,10 @@ export default function About() {
           </div>
         </body>
         <footer>
-          {" "}
           <h2 className="return">
-            {/* <a href="contact.html" className="return">
-              {" "}
-              [contact me]
-            </a> */}
-            <Link to="/Contact">[contact me]</Link>
+            {/* <Link to="/Contact">[contact me]</Link> */}
+            <h3>[contact me]</h3>
+            <ContactPage />
           </h2>
         </footer>
       </div>

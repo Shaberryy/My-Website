@@ -1,3 +1,4 @@
+import ContactPage from "./ContactPage";
 import NavBar from "./NavBar";
 
 export default function Portfolio() {
@@ -50,6 +51,7 @@ export default function Portfolio() {
         </div>
         <h2>Room Study</h2>
       </div>
+      <ContactPage />
     </>
   );
 }
