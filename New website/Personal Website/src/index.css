@@ -73,7 +73,9 @@ a:hover {
   width: 500px;
 }
 .hali {
-  width: 40%;
+  width: fixed;
+  size: 311px;
+  height: 398.5px;
   border: rgb(175, 175, 175);
   border-style: double;
   margin: 20px;
@@ -84,10 +86,16 @@ h1 {
 }
 .nameAndPhoto {
   display: flex;
-  flex-wrap: wrap-reverse;
+  /* flex-wrap: wrap-reverse; */
+}
+.bio {
+  margin-left: 20px;
 }
 p {
-  border-style: dashed;
+  border-style: dotted;
+}
+.divider {
+  text-align: center;
 }
 /* PROJECTS */
 .projects {
