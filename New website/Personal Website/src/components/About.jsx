@@ -1,5 +1,5 @@
 import NavBar from "./NavBar";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import ContactPage from "./ContactPage";
 export default function About() {
   return (
@@ -35,6 +35,9 @@ export default function About() {
               my skill set and contribute to innovative projects that push the
               boundaries of digital creativity
             </p>
+            {/*  */}
+
+            {/*  */}
           </div>
         </body>
         <footer>

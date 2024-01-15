@@ -89,7 +89,17 @@ h1 {
 p {
   border-style: dashed;
 }
-
+/* PROJECTS */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+.dev1 {
+  display: flex;
+  flex: content;
+  flex-direction: row;
+}
+/* ``````````````````````````` */
 /* button {
   border-radius: 8px;
   border: 1px solid transparent;

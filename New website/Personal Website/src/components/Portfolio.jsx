@@ -5,7 +5,7 @@ export default function Portfolio() {
   return (
     <>
       <NavBar />
-      <div>
+      <div className="projects">
         <h1>Dev Projects</h1>
         <div className="Dev1">
           <h2>Studio Drink</h2>
