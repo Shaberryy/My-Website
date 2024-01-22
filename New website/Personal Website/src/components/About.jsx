@@ -5,12 +5,12 @@ export default function About() {
   return (
     <>
       <div>
-        <NavBar />
+        {/* <NavBar /> */}
         <body>
           <br />
           <h1>ABOUT ME</h1>
           <div className="nameAndPhoto">
-            <img className="hali" src="../src/assets/hali.jpg" />
+            <img className="halisquare" src="../src/assets/halisquare.jpg" />
             <p className="bio">
               <h1>Hali Jaden Rodriguez</h1>
               Hi, I`m Hali Rodriguez, a California-based Full Stack Developer
