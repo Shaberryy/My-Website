@@ -10,7 +10,7 @@ export default function About() {
           <br />
           <h1>ABOUT ME</h1>
           <div className="nameAndPhoto">
-            <img className="halisquare" src="../src/assets/halisquare.jpg" />
+            <img className="halisquare" src="../src/assets/hali3.jpg" />
             <p className="bio">
               <h1>Hali Jaden Rodriguez</h1>
               Hi, I`m Hali Rodriguez, a California-based Full Stack Developer
