@@ -35,13 +35,15 @@ export default function About() {
               boundaries of digital creativity
             </p>
           </div>
-          <h3 className="divider">✧･ﾟ: *✧･ﾟ:* ~·͙*̩̩͙˚̩̥̩̥*̩̩̥͙ ✩ *̩̩̥͙˚̩̥̩̥*̩̩͙‧͙~ *:･ﾟ✧*:･ﾟ✧</h3>
-          <h2>Hobbies</h2>
-          <h3>
-            In my free time I love to play music, I am a self taught musician
-            and can play; guitar, ukulele, bass and pian. I also love learning
-            languages and raising my plant children. :3
-          </h3>
+          {/* <h3 className="divider">✧･ﾟ: *✧･ﾟ:* ~·͙*̩̩͙˚̩̥̩̥*̩̩̥͙ ✩ *̩̩̥͙˚̩̥̩̥*̩̩͙‧͙~ *:･ﾟ✧*:･ﾟ✧</h3> */}
+          <p className="hobbies">
+            <h2>Hobbies</h2>
+            <h3>
+              In my free time I love to play music, I am a self taught musician
+              and can play; guitar, ukulele, bass and pian. I also love learning
+              languages and raising my plant children. :3
+            </h3>
+          </p>
         </body>
         <footer>
           <h2 className="return">

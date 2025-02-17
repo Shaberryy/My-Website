@@ -56,6 +56,10 @@ body {
 .links {
   display: flex;
   gap: 10px;
+  font-size: 1.2em;
+  color: rgb(238, 248, 222);
+  margin-left: 20px;
+  text-decoration: underline;
 }
 .socials {
   width: 50px;
@@ -135,6 +139,16 @@ h1 {
   border-style: double;
   margin: 20px;
 
+  padding: 15px;
+}
+.hobbies {
+  margin-left: 20px;
+  background-color: #24454a;
+  text-align: center;
+  border-radius: 20px;
+  border: rgb(175, 175, 175);
+  border-style: double;
+  margin: 20px;
   padding: 15px;
 }
 p {

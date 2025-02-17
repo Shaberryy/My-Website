@@ -12,12 +12,13 @@ export default function Home() {
         <h1>Hali J. Rodriguez</h1>
         <h2></h2>
         <h2>Developer & 3Dd Artist</h2>
-        <h3 className="divider">✧･ﾟ: *✧･ﾟ:* ~·͙*̩̩͙˚̩̥̩̥*̩̩̥͙ ✩ *̩̩̥͙˚̩̥̩̥*̩̩͙‧͙~ *:･ﾟ✧*:･ﾟ✧</h3>
 
         {/* <body>"hor hor hor hor hor" -feddy</body> */}
       </div>
+
       <div className="about">
         <About />
+        <h3 className="divider">✧･ﾟ: *✧･ﾟ:* ~·͙*̩̩͙˚̩̥̩̥*̩̩̥͙ ✩ *̩̩̥͙˚̩̥̩̥*̩̩͙‧͙~ *:･ﾟ✧*:･ﾟ✧</h3>
       </div>
     </>
   );
