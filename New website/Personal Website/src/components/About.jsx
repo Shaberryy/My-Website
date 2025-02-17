@@ -1,26 +1,25 @@
 import NavBar from "./NavBar";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import ContactPage from "./ContactPage";
 export default function About() {
   return (
     <>
       <div>
-        <NavBar />
+        {/* <NavBar /> */}
         <body>
           <br />
-          <h1>Hali Jaden Rodriguez</h1>
-
+          <h1>ABOUT ME</h1>
           <div className="nameAndPhoto">
-            <img className="hali" src="../src/assets/hali.jpg" />
-
-            <p>
+            <img className="halisquare" src="../src/assets/hali3.jpg" />
+            <p className="bio">
+              <h1>Hali Jaden Rodriguez</h1>
               Hi, I`m Hali Rodriguez, a California-based Full Stack Developer
               with a passion for digital art and 3D animation. My expertise in a
               range of design software applications, including Maya, Blender,
               Clip Studio and Zbrush, allows me to bring a creative edge to my
               development projects.
               <br />
-              <br /> When I`m not coding, you can find me immersed in my own art
+              <br /> When Im not coding, you can find me immersed in my own art
               projects, where I love to explore the realms of 3D animation and
               sculpting. I find inspiration in the intricacies of digital art
               and the captivating world of video games, which fuels my
@@ -36,6 +35,15 @@ export default function About() {
               boundaries of digital creativity
             </p>
           </div>
+          {/* <h3 className="divider">✧･ﾟ: *✧･ﾟ:* ~·͙*̩̩͙˚̩̥̩̥*̩̩̥͙ ✩ *̩̩̥͙˚̩̥̩̥*̩̩͙‧͙~ *:･ﾟ✧*:･ﾟ✧</h3> */}
+          <p className="hobbies">
+            <h2>Hobbies</h2>
+            <h3>
+              In my free time I love to play music, I am a self taught musician
+              and can play; guitar, ukulele, bass and pian. I also love learning
+              languages and raising my plant children. :3
+            </h3>
+          </p>
         </body>
         <footer>
           <h2 className="return">

@@ -5,7 +5,7 @@ export default function Portfolio() {
   return (
     <>
       <NavBar />
-      <div>
+      <div className="projects">
         <h1>Dev Projects</h1>
         <div className="Dev1">
           <h2>Studio Drink</h2>
@@ -41,10 +41,12 @@ export default function Portfolio() {
             allowfullscreen
           ></iframe>
         </div>
+        <h3 className="divider">✧･ﾟ: *✧･ﾟ:* ~·͙*̩̩͙˚̩̥̩̥*̩̩̥͙ ✩ *̩̩̥͙˚̩̥̩̥*̩̩͙‧͙~ *:･ﾟ✧*:･ﾟ✧</h3>
         <h1>Art Projects</h1>
         <div className="art1">
           <h2>Hand Study</h2>
           <img src="../src/assets/hand.jpg" />
+          <h2>art instagram</h2>
           <iframe>
             <video src=""></video>
           </iframe>
